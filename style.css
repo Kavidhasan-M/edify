@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter Tight', sans-serif !important;
+    background-color: #16171b !important;
+    color: rgb(245, 245, 245) !important;
+}
+
+nav{
+    padding: 4% 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav a{
+    color: rgb(245, 245, 245);
+    font-weight: 500;
+    text-decoration: none;
+    width: inherit;
+    padding: 4px 24px;
+    background-color: #25D366;
+    box-shadow: 0px 5px #149744;
+    transition: all .2s ease-in-out;
+}
+
+nav a:hover{
+    color: rgb(245, 245, 245);
+    font-weight: 500;
+    text-decoration: none;
+    width: inherit;
+    padding: 4px 24px;
+    background-color: #21bb59;
+    box-shadow: 0px 2px #149744;
+}
+
+.main{
+    padding: 4% 9%;
+}
+
+.main img{
+    width: 100%;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.coverndetails{
+    max-width: 800px;
+}
+
+.cta-box .price-box{
+    border: 1px #8a8a8a solid;
+    padding: 4%;
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+.course-num{
+    color: #aaaaaa;
+}
+
+.course-name{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px;
+    
+}
+
+.price{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1px 0px;
+}
+
+.price-box a{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    width: inherit;
+    padding: 12px 24px;
+    background-color: #3a439d;
+    box-shadow: 0px 5px #242a68;
+    transition: all .2s ease-in-out;
+}
+
+.price-box a:hover{
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+    width: inherit;
+    padding: 12px 24px;
+    background-color: #343b8d;
+    box-shadow: 0px 2px #242a68;
+}
+
+.accordion-item{
+    background-color: #16171b !important;
+    
+}
+
+.accordion-jeader{
+    background-color: #16171b !important;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    nav a{
+        font-size: 14px;
+    }
+
+    .main{
+        padding: 4% 6%;
+    }
+    
+    .course-name{
+        font-size: 20px;
+        max-width: unset;
+    }
+
+    .block{
+        display: unset;
+    }
+}
+
+
