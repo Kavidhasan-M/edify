@@ -126,6 +126,12 @@ nav a:hover{
 }
 
 
+ul li:before {
+    content: '\1F449';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
 
 
 
