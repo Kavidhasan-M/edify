@@ -83,6 +83,11 @@ nav{
 }
 
 
+.accordion-item{
+    color: rgb(245, 245, 245) !important;
+
+}
+
 
 .accordion-button{
     background-color: #2e2f35 !important;
@@ -91,8 +96,7 @@ nav{
 }
 
 .accordion-button::after{
-    color: rgb(245, 245, 245) !important;
-
+    background-image: url('./Images/chevron.png') !important;
 }
 
 .accordion-item{
@@ -101,6 +105,11 @@ nav{
 
 .accordion-body{
     color: rgb(245, 245, 245);
+}
+
+#flush-collapseOne{
+    color: rgb(245, 245, 245) !important;
+
 }
 
 
