@@ -134,6 +134,11 @@ p span{
         font-size: 14px;
     }
 
+    nav{
+        padding: 5% 6%;
+
+    }
+
     .main{
         padding: 4% 6%;
     }
