@@ -120,7 +120,7 @@ ul li:before {
 }
 
 p span{
-    color: #6370f8;
+    color: #6370f8 !important;
 }
 
 
