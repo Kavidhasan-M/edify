@@ -12,6 +12,17 @@ nav{
     justify-content: space-between;
 }
 
+nav div a{
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    transition: all .2s ease-in-out;
+}
+
+nav div a:hover{
+    color: #6370f8;
+}
+
 .main{
     padding: 4% 9%;
 }
