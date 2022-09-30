@@ -37,6 +37,15 @@ nav div a:hover{
     margin-top: 40px;
 }
 
+.instruc .instruc-title{
+    color: #6370f8;
+    margin-bottom: 0px;
+}
+
+.instruc .instruc-name{
+    font-weight: 500;
+}
+
 .coverndetails{
     max-width: 800px;
 }
