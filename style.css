@@ -47,7 +47,7 @@ nav div a:hover{
 }
 
 .coverndetails{
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .cta-box .price-box{
@@ -142,6 +142,9 @@ ul li:before {
 p span{
     color: #6370f8 !important;
 }
+
+
+
 
 @media only screen and (max-width: 950px) and  (min-width: 601px){
 
